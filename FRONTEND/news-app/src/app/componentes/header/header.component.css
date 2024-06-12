@@ -1,20 +1,21 @@
 main {
     background: rgb(30, 30, 30);
-    height: calc(100vh - 120px);
+    height: calc(105vh - 100px);
 }
 
 
 
 nav {
-    height: 60px;
-    background: rgb(125, 0, 150);
+    height: 40px;
+    background: rgb(35, 34, 36);
     display: flex;
+    padding-right: 75%;
     justify-content: center;
-    gap: 60px;
+    gap: 20px;
     align-items: center;
 
     .item {
         color: rgb(250, 250, 250);
-        font-size: 1.3rem;
+        font-size: 1.0rem;
     }
 }

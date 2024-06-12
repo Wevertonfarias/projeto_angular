@@ -1,0 +1,34 @@
+/* Estilo da tabela */
+.table {
+    width: 100%; /* largura total */
+    border-collapse: collapse; /* junta as bordas das células */
+    border: 1px solid #ddd; /* borda da tabela */
+  }
+  
+  /* Estilo do cabeçalho */
+  .thead {
+    background-color: #f2f2f2; /* cor de fundo do cabeçalho */
+  }
+  
+  /* Estilo das células do cabeçalho */
+  .thead th {
+    padding: 8px; /* espaçamento interno */
+    text-align: left; /* alinhamento do texto */
+  }
+  
+  /* Estilo das linhas da tabela */
+  .tr {
+    border-bottom: 1px solid #ddd; /* borda inferior das linhas */
+  }
+  
+  /* Estilo das células da tabela */
+  .tr td {
+    padding: 8px; /* espaçamento interno */
+    text-align: left; /* alinhamento do texto */
+  }
+  
+  /* Estilo das células de ação (Delete e Editar) */
+  .action-cell {
+    cursor: pointer; /* cursor de mão */
+    color: red; /* cor do texto */
+  }  

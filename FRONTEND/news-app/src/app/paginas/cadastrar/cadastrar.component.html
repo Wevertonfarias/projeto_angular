@@ -1,1 +1,26 @@
-<p>cadastrar works!</p>
+<div class="form-container" ng-controller="UserController">
+    <form ng-submit="submitForm()">
+      <h2 fonte>{{ 'Cadastro de Usuário' | uppercase }}</h2>
+      <div class="form-group">
+        <label for="fullName" fonte>Nome Completo:</label>
+        <input type="text" id="fullName" name="fullName" ng-model="user.fullName" required>
+      </div>
+      <div class="form-group">
+        <label for="username">Nome de Usuário:</label>
+        <input type="text" id="username" name="username" ng-model="user.username" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" ng-model="user.email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Senha:</label>
+        <input type="password" id="password" name="password" ng-model="user.password" required>
+      </div>
+      <div class="form-group">
+        <label for="confirmPassword">Confirmar Senha:</label>
+        <input type="password" id="confirmPassword" name="confirmPassword" ng-model="confirmPassword" required>
+      </div>
+      <button type="submit">Cadastrar</button>
+    </form>
+  </div>
